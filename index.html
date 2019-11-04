@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="A site where you can find inspiration for your bike build.">
+	<title> Cafe Racer World </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" type="text/css" href="CSS/stylesheet1.css">
+	<link rel="icon" href="IMAGES/caferacer.png">
+</head>
+
+<body>
+
+	<div class="content">
+ 
+		<header>
+
+			<a href="index.html" title="Cafe Racer World" class="logotype">
+				<img src="IMAGES/caferacer.png" alt="Cafe Racer World-logo" />
+
+			</a>
+
+			<nav class="main-menu">
+				<ul class="main-menu-list">
+					<li><a href="Bikes.html" title="Bikes">Bikes</a></li>
+					<li><a href="About-us.html" title="About us">About us</a></li>
+					<li><a href="Contact.html" title="Contact us">Contact us</a></li>
+				</ul>
+			</nav>
+
+			<ul class="social-media">
+				<div class= "social-media-text">Follow us!</div>
+				<li><a href="https://www.facebook.com"><img src="IMAGES/fb.png" alt="Facebook logo" /></a></li>
+				<li><a href="https://www.instagram.com"><img src="IMAGES/insta1.png" alt="Instagram logo" /></a></li>
+			</ul>
+
+		</header>
+
+		
+		<div class="entry">
+
+			<section class="hero">
+				<img class="mySlides" src="IMAGES/6.jpg" alt="Images of top 3 bikes 2019" />
+
+				<div class="inner">
+					<h1 class="IndexH1">Cafe Racer World</h1>
+					<p> Welcome to Cafe Racer World. We are  motorcycle riders and builders living in Santa Barbara, USA.
+							When it comes to featured builds we stick to our cafe racer theme featuring motorcycles
+							that honour the cafe racer design or modification ethos. Our goal is to inspire more builds!
+						   <br>
+						   <p class= "Quote"> - Jeff & Dave</p>
+					   </p>
+				</div>
+				<img class="mySlides" src="IMAGES/7.jpg" alt="Images of top 3 bikes 2019" />
+
+				<div class="inner">
+						<h1 class="IndexH1">Cafe Racer World</h1>
+						<p> Welcome to Cafe Racer World. We are  motorcycle riders and builders living in Santa Barbara, USA.
+								When it comes to featured builds we stick to our cafe racer theme featuring motorcycles
+								that honour the cafe racer design or modification ethos. Our goal is to inspire more builds!
+							   <br>
+							   <p class= "Quote"> - Jeff & Dave</p>
+						   </p>
+				</div>
+				<img class="mySlides" src="IMAGES/8.jpg" alt="Images of top 3 bikes 2019" />
+
+				<div class="inner">
+						<h1 class="IndexH1">Cafe Racer World</h1>
+						<p> Welcome to Cafe Racer World. We are  motorcycle riders and builders living in Santa Barbara, USA.
+							 When it comes to featured builds we stick to our cafe racer theme featuring motorcycles
+							 that honour the cafe racer design or modification ethos. Our goal is to inspire more builds!
+							<br>
+							<p class= "Quote"> - Jeff & Dave</p>
+						</p>
+				</div>
+
+			</section>
+
+				  
+				  <script>
+				  var myIndex = 0;
+				  carousel();
+				  
+				  function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+					  x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "block";  
+					setTimeout(carousel, 3000);
+				  }
+				  </script>
+
+			<section class="boxes">
+				<div class="box">
+					<a href="HondaCB650.html">
+						<img src="IMAGES/2.jpg" alt="Picture of a notorcycle" />
+						<h4>Honda CB650 1981</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod.</p>
+					</a>
+				</div>
+				<div class="box">
+					<a href="Yamahaxj6.html">
+						<img src="IMAGES/1.jpg" alt="Picture of a motorcycle" />
+						<h4>Yamaha XJ6 2009</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod.</p>
+					</a>
+				</div>
+				<div class="box">
+					<a href="Triumph.html">
+						<img src="IMAGES/3.jpg" alt="Picture of a motorcycle" />
+						<h4>Triumph Speed Twin 2017</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod.</p>
+					</a>
+				</div>
+			</section>
+
+		</div>
+		<footer>
+			© 2019 Eric Johansson. All rights reserved.
+		  </footer>
+	</div>
+	
+</body>
+
+</html>
