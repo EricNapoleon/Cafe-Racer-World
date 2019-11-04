@@ -171,14 +171,6 @@ header {
     color: whitesmoke;
 }
 
-.social-media-text{
-    text-align: right;
-    margin-right: 1px; 
-    font-size: 16px;
-    color: black;
-    text-shadow: 0 0 1px #FF0000;
-}
-
 .social-media{
 	text-align: right;
 }
@@ -407,7 +399,5 @@ article{
         .box, h4{
             font-size: 16px;
         }
-       .social-media-text{
-           font-size:10px;
-       }
+       
     }
