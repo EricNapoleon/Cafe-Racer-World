@@ -379,10 +379,11 @@ article{
         .inner, .IndexH1{
             font-size: 14px;
                padding:5px;
-               margin-left: 5px;
-               margin-bottom: 5px;
+               margin-left: 0px;
+               margin-bottom: 20px;
         }
         .inner p{
+            margin-top: -20px;
             font-size: 11px;
         }
         .box p{
@@ -393,7 +394,6 @@ article{
             max-width: 100%;
             padding:0px;   
         }
-        
         .box, h4{
             font-size: 16px;
         }
