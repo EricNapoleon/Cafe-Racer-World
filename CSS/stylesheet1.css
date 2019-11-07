@@ -267,7 +267,7 @@ footer{
   font-size: 12px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1050px) {
 
 	.boxes{
 		grid-template-columns:100%;
@@ -276,7 +276,7 @@ footer{
         grid-template-columns: 100%;
     }
     .inner, .IndexH1{
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: -7px;
         padding: 5px;  
     }
